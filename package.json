@@ -1,0 +1,86 @@
+{
+  "name": "ident2be",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/base": "^5.0.0-alpha.69",
+    "@mui/lab": "^5.0.0-alpha.55",
+    "@mui/material": "^5.1.1",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.16.13",
+    "array-move": "^4.0.0",
+    "axios": "^0.24.0",
+    "google-maps-react": "^2.0.6",
+    "immutability-helper": "^3.1.1",
+    "json-server": "^0.17.0",
+    "mapbox-gl": "^2.6.1",
+    "moment-timezone": "^0.5.34",
+    "momnet": "^2.29.1",
+    "react": "^17.0.2",
+    "react-clock": "^3.0.0",
+    "react-color": "2.17.3",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-dnd": "^14.0.4",
+    "react-dnd-html5-backend": "^14.0.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^12.0.4",
+    "react-highlight-words": "^0.17.0",
+    "react-icons": "^4.3.1",
+    "react-map-gl": "^6.1.17",
+    "react-mapbox-gl": "^5.1.1",
+    "react-open-weather": "^1.1.6",
+    "react-query": "^3.34.7",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "react-select": "^5.2.2",
+    "react-sortable-hoc": "^2.0.0",
+    "react-sticky-el": "^2.0.9",
+    "react-table": "^7.7.0",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.0",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "json-server": "json-server --watch ./src/mock/MOCK_DATA.json --port 5000"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "autoprefixer": "^9",
+    "faker": "^5.5.3",
+    "namor": "^2.0.3",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  }
+}

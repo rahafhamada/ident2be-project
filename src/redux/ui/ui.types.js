@@ -1,0 +1,6 @@
+const UITypes = {
+  SET_MAIN_APP_COLOR: "SET_MAIN_APP_COLOR",
+  SET_DARK_MODE: "SET_DARK_MODE",
+  HIDE_MODAL: "HIDE_MODAL",
+};
+export default UITypes;

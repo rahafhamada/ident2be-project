@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~antd/dist/antd.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* height: 20000px; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Overwrite */
+.ant-collapse-header {
+  padding: 0 !important;
+  margin: 7px 0 !important;
+}
+
+.ant-collapse-header svg {
+  color: #f2b324;
+}
+
+.ant-collapse-header {
+  color: #aaa !important;
+}
+
+.ant-table-row svg {
+  opacity: 0;
+}
+
+.ant-table-row:hover svg {
+  opacity: 1;
+}
+
+.ant-table-tbody > tr.ant-table-row:hover > td {
+  background-color: #00000017 !important;
+}
+
+.add-person-form .field-below-avatar.MuiGrid-item {
+  padding-top: 0 !important;
+}
+.add-person-form .MuiGrid-item input:focus {
+  outline: none !important;
+  border: none !important;
+}
+.add-person-form .MuiGrid-item input:hover {
+  border: 1px solid transparent !important;
+}
+
+.css-eklall-MuiGrid-root > .MuiGrid-item {
+  padding-top: 0 !important;
+}
+
+.add-person-preview {
+  background-image: url("https://png.pngtree.com/png-vector/20190710/ourlarge/pngtree-user-vector-avatar-png-image_1541962.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
